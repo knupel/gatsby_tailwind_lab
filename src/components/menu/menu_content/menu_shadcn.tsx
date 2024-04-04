@@ -1,13 +1,13 @@
 import React from "react";
 import { useState} from "react";
 // APP
-import { MenuLink } from "../menu_link";
+import { LinkIn } from "../../link_in";
 import { MenuTitle } from "../menu_title";
 
 function Deploy() {
   return (
     <div>
-      <MenuLink link="/shadcn/dropdown/" name={"SHAD CN: dropdown"}></MenuLink>
+      <LinkIn to="/shadcn/dropdown/" title={"SHAD CN: dropdown"}></LinkIn>
     </div>
   );
 }

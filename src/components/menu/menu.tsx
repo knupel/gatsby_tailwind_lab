@@ -1,6 +1,6 @@
 import React from "react";
 
-import { MenuShadcn } from "./h";
+import { MenuShadcn } from "./../h";
 
 
 

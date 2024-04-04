@@ -1,1 +1,0 @@
-export { MenuShadcn } from "./menu_content/menu_shadcn";
