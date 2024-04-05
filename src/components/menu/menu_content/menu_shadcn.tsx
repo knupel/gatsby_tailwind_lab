@@ -8,6 +8,7 @@ function Deploy() {
   return (
     <div>
       <LinkIn to="/shadcn/dropdown/" title={"SHAD CN: dropdown"}></LinkIn>
+      <LinkIn to="/shadcn/menubar/" title={"SHAD CN: menubar"}></LinkIn>
     </div>
   );
 }
