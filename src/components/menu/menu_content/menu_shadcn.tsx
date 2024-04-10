@@ -7,8 +7,9 @@ import { MenuTitle } from "../menu_title";
 function Deploy() {
   return (
     <div>
-      <LinkIn to="/shadcn/dropdown/" title={"SHAD CN: dropdown"}></LinkIn>
-      <LinkIn to="/shadcn/menubar/" title={"SHAD CN: menubar"}></LinkIn>
+      <LinkIn to="/shadcn/dropdown/" title={">> dropdown"}></LinkIn>
+      <LinkIn to="/shadcn/menubar/" title={">> menubar"}></LinkIn>
+      <LinkIn to="/shadcn/accordion/" title={">> accordéon"}></LinkIn>
     </div>
   );
 }
@@ -23,7 +24,7 @@ export const MenuShadcn = () => {
   }
 
   return (<div>
-      <div style={{cursor: 'pointer'}} onClick={mouse_click}><MenuTitle is={is} title="MISC"/></div>
+      <div style={{cursor: 'pointer'}} onClick={mouse_click}><MenuTitle is={is} title="SHAD CN"/></div>
       {is ? <Deploy/>: null}
     </div>
   );
