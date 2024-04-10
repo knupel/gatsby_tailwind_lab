@@ -1,6 +1,7 @@
 
 import React from "react";
 // import Layout from "../../../components/struct/layout";
+import { LinkOut, LinkIn } from "../../components/h"
 
 import {
   Menubar,
@@ -19,7 +20,8 @@ const MenuEntree = () => {
       <MenubarTrigger>Entrée</MenubarTrigger>
       <MenubarContent>
         <MenubarItem>
-          Oeuf Mayo <MenubarShortcut>⌘T</MenubarShortcut>
+          <LinkIn to="/" info="??" title="Oeuf Mayo"/>
+          <MenubarShortcut>⌘T</MenubarShortcut>
         </MenubarItem>
         <MenubarItem>Poulpe</MenubarItem>
         <MenubarSeparator />
@@ -37,7 +39,8 @@ const MenuPrincipal = () => {
       <MenubarTrigger>Principal</MenubarTrigger>
       <MenubarContent>
         <MenubarItem>
-          Boeuf bourguignon <MenubarShortcut>⌘T</MenubarShortcut>
+          <LinkIn to="/" info="??" title="Boeuf bourguignon"/>
+          <MenubarShortcut>⌘T</MenubarShortcut>
         </MenubarItem>
         <MenubarItem>Choucroute</MenubarItem>
         <MenubarSeparator />
@@ -56,7 +59,8 @@ const MenuDessert = () => {
       <MenubarTrigger>Déssert</MenubarTrigger>
       <MenubarContent>
         <MenubarItem>
-          Crème brûlée <MenubarShortcut>⌘T</MenubarShortcut>
+          <LinkIn to="/" info="??" title="Crème brûlée"/>
+          <MenubarShortcut>⌘T</MenubarShortcut>
         </MenubarItem>
         <MenubarItem>Île flottantr</MenubarItem>
         <MenubarSeparator />
@@ -72,16 +76,16 @@ const MenuBar = () => {
   return (
     <div>
       <Menubar>
-  <MenubarMenu>
-    <MenuEntree/>
-  </MenubarMenu>
-  <MenubarMenu>
-    <MenuPrincipal/>
-  </MenubarMenu>
-  <MenubarMenu>
-    <MenuDessert/>
-  </MenubarMenu>
-</Menubar>
+        <MenubarMenu>
+          <MenuEntree/>
+        </MenubarMenu>
+        <MenubarMenu>
+          <MenuPrincipal/>
+        </MenubarMenu>
+        <MenubarMenu>
+          <MenuDessert/>
+        </MenubarMenu>
+      </Menubar>
     </div>
   )
 }
