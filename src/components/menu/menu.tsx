@@ -1,6 +1,7 @@
 import React from "react";
 
-import { MenuShadcn } from "./../h";
+import { MenuShadcn, MenuTailwindBasic } from "./../h";
+
 
 
 
@@ -9,6 +10,7 @@ export default function Menu() {
     <div>
       MENU
       <MenuShadcn />
+      <MenuTailwindBasic />
     </div>
   );
 }
