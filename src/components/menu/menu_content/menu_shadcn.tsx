@@ -10,6 +10,7 @@ function Deploy() {
       <LinkIn to="/shadcn/dropdown/" title={">> dropdown"}></LinkIn>
       <LinkIn to="/shadcn/menubar/" title={">> menubar"}></LinkIn>
       <LinkIn to="/shadcn/accordion/" title={">> accordéon"}></LinkIn>
+      <LinkIn to="/shadcn/table/" title={">> tableau"}></LinkIn>
     </div>
   );
 }

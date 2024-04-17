@@ -1,7 +1,7 @@
 
 import React, {FC} from "react";
 // import Layout from "../../../components/struct/layout";
-import { LinkOut, LinkIn } from "../../components/h"
+import { LinkIn } from "../../components/h"
 
 import {
   Accordion,
